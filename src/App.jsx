@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import UploadCSV from "./components/UploadCSV";
-import TestList from "./components/TestList";
-import MCQ from "./components/MCQ";
-import ScoreHistory from "./components/ScoreHistory";
-import Login from "./components/Login";
+import UploadCSV from "./UploadCSV";
+import TestList from "./TestList";
+import MCQ from "./MCQ";
+import ScoreHistory from "./ScoreHistory";
+import Login from "./Login";
 
 function App() {
   const [mode, setMode] = useState("");
